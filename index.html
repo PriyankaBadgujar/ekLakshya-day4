@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+             
+        background-image: url('images/wallpaper4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  margin: 0;
+  
+}
+
+
+ #navbar { 
+  display: grid;
+  min-height: 100px;
+  grid-auto-flow: column;
+  background-color: khaki;
+  
+  /* padding:  30px 0px; */
+  
+  box-shadow: -1px 14px 15px 10px rgb(212, 132, 40);
+} 
+
+ #name { 
+  display: grid;
+  justify-content: start;
+  align-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 1000;
+  color: rgb(26, 211, 140);
+  text-transform: uppercase;
+} 
+
+.logo span {
+  color: #0474bc;
+}
+
+ a {
+  text-decoration: underline;
+  color: black;
+  
+}
+
+a:hover {
+  color: red;
+}
+
+ .mobile-menu {
+  display: block;
+  
+  background-color: rgba(145, 51, 223, 0.253);
+  float: right;
+  width: 150px;
+  padding: 5px 0 50px 0;
+  
+  box-shadow: -1px 14px 15px 10px rgba(172, 36, 172, 0.445);
+
+ 
+} 
+
+
+.mobile-links li {
+  line-height: 3.5rem;
+}
+.nav-list {
+  font-family: "Open Sans", sans-serif;
+  list-style-type: square;
+  font-size: 24px;
+}
+
+
+.nav-list:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    
+    <header> 
+        <!-- <marquee><h2> <em>My Profile</h2> -->
+            <nav>
+              <div id="navbar">
+                <div id="name">
+                  <div class="logo" >About My<span>Self</span> </div>
+                </div>
+        
+               
+              </div>
+            </nav>
+         -->
+            
+
+            <div  class="mobile-menu">
+              <ul class="mobile-links" style="list-style-type: square;">
+                <li class="nav-list"><a href="about.html">About</a></li>
+                <li class="nav-list"><a href="gallery.html">Gallery</a></li>
+                <li class="nav-list"><a href="profile.html">Profile</a></li>
+                <li class="nav-list"><a href="opening.html">Opening</a></li>
+                <li class="nav-list"><a href="contact.html">Contact</a></li>
+                <li class="nav-list"><a href="gamezone.html">Fun</a></li>
+              </ul>
+            </div>
+          </header> 
+</body>
+</html>
